@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header .wer img{
+    width: 140px;
+    display: inline-block;
+    border-right: 1px solid rgba(224, 224, 224, 1);
+    height: 100%;
+    padding-right: 35px;
+    margin-right: 20px;
+}
+#header .opa {
+    opacity: 0;
+}
+#header .wer{
+    
+    border-right: 1px solid rgba(224, 224, 224, 1);
+    
+
+}
+#header .yu {
+    background: rgba(255,255,255,9);
+}
+.right {
+    float: right;
+}
+.white {
+    color: white;
+}
+
+#header .border {
+  border-right: 1px solid rgba(224, 224, 224, 1); 
+  padding: 2px;
+  height: 60px;
+}
+#header .pic {
+    width: 50px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+
+#footer {
+    background: #384D50;
+    color: white;
+}
+
+#header .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#header .qw {
+    margin-left: 30%;
+}
+
+#navbarNav {
+    margin-left: 40px;
+    width: 500px;
+}
+
+#background {
+    background-image: url(../images/mountains.jpg);
+    background-size: cover;
+    background-color: #dddd;
+    min-height: 662px;
+    }
+
+#background .bg-1 {
+    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#258dc8+0,258dc8+51&1+0,0.36+44,0.22+62 */
+background: -moz-linear-gradient(left, rgba(37,141,200,1) 0%, rgba(37,141,200,0.36) 44%, rgba(37,141,200,0.31) 51%, rgba(37,141,200,0.22) 62%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(37,141,200,1) 0%,rgba(37,141,200,0.36) 44%,rgba(37,141,200,0.31) 51%,rgba(37,141,200,0.22) 62%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(37,141,200,1) 0%,rgba(37,141,200,0.36) 44%,rgba(37,141,200,0.31) 51%,rgba(37,141,200,0.22) 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#38258dc8',GradientType=1 ); /* IE6-9 */
+        position: absolute;
+        top: 77px;
+        left: 0px;
+        width: 100%;
+        min-height: 585px;
+}
+#background .hu {
+    background-color: white;
+}
+#background .pop {
+    width: 350px;
+    height: 50px;
+}
+
+#navbarNav .nav-item {
+    padding: 0px 10px;
+}
+#header .navbar {
+    box-shadow: -1px 10px 10px -10px rgba(42, 73, 175, 1);
+    margin: 0px 5px;
+}
+#navbarNav .nav-link:hover {
+    color: #2a49af;
+    box-shadow: -1px 7px 9px -9px rgba(0,0,0,0.65);
+}
+
+
+#categories .category-box {
+    flex: 0 0 25%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    padding: 25px;
+    border-radius: 4px;
+    transition: .35s;
+}
+
+#categories .category-box .fa {
+        margin-bottom: 15px;
+}
+
+#categories .category-box-counter {
+    width: auto;
+    height: 24px;
+    font-size: 14px;
+    line-height: 25px;
+    border-radius: 4px;
+    padding: 0 8px;
+    color: #909090;
+    background: rgba(0,0,0,.06);
+    font-weight: 600;
+    display: inline-block;
+    margin: 0 auto;
+    transition: .35s;
+    margin-bottom: 14px;
+}
+
+
+#categories .category-box:hover {
+    background: blue;
+    color: white;
+}
+
+
+#jobs {
+    background: rgba(237, 237, 237, 0.53);
+}
+#jobs .up {
+    padding-top: 30px;
+}
+#jobs .mla {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#jobs .mls {
+    display: inline-block;
+    margin-right: 14px;
+    color: #777;
+}
+
+#jobs .w {
+    width: 60px;
+}
+
+#jobs .gry {
+    background: rgba(222, 222, 222, 0.21);
+}
+
+
+.req {
+    font-family: 'Eczar', serif;
+}
+
+.thik a img {
+    border-radius: 4px;
+    height: 360px;
+    display: block;
+    background-size: cover;
+    background-position: 100%;
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+    transition: .4s;
+    margin: 0 0 25px;
+}
+.thik {
+    position: relative;
+}
+.atr {
+  position: absolute;
+  top: 85%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.ink {
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+.erq {
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.nmu {
+    background-color: #F9AE3A;
+    display: inline-block;
+    color: white;
+    padding: 2px 5px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.fa-star {
+    color: #F9AE3A;
+    margin-left: 3px;
+}
+
+.lolo {
+    margin-left: 29px;
+}
+.card {
+    box-shadow: -webkit-box-shadow: -4px -6px 7px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px -6px 7px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px -3px rgba(0,0,0,0.75);
+}
+
+#members {
+    background: rgba(237, 237, 237, 0.53);
+}
+
+#footer .wer img{
+    width: 160px;
+    display: inline-block;
+    height: 100%;
+    padding-right: 35px;
+    margin-right: 20px;
+}
+
+.rat a {
+    color: white;
+}
+
+.fa-twitter:hover {
+    color: #2ED4F5;
+}
+
+.fa-facebook:hover {
+    color: #0A10BF;
+}
+
+.fa-snapchat:hover {
+    color: #F9F941;
+}
+
+.fa-google-plus:hover {
+    color: #F35E46;
+}
+
+.dropdown-menu {
+    box-shadow: -webkit-box-shadow: -4px -6px 7px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px -6px 7px -5px rgba(0,0,0,0.75);
+box-shadow: -4px -6px 7px -5px rgba(0,0,0,0.75);
+}
+
+.asq ul {
+    list-style: none;
+}
+
+.asq a {
+    text-decoration: none;
+    color: white;
+}
+
+.asq li {
+    margin-left: 3px;
+    line-height: 38px;
+}
+
+.asq {
+    border-top: 1px solid #737879;
+}
+
+.asq input {
+    width: 260px;
+    margin-right: 5px;
+}
+
+.asq a:hover {
+
+    text-decoration: none;
+    color: #F35E46;
+}
+
+.asq a li:hover {
+    transform: translate(-8%, 5%);
+    border-bottom: 1px solid white;
+    transition: 0.4s;
+}
+
+
+@media (max-width:750px) and (min-width:306px) {
+#jobs {
+    display: none;
+}
+#header .yu {
+    position: absolute;
+}
+#header .wer {
+    position: relative;
+}
+#categories .move2 {
+    margin-top: 150%;
+}
+#background .hide2 {
+    display: none;
+}
+#header .wer img {
+    border-right: none;
+}   
+    
+    
+    
+}
